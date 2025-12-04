@@ -1,1 +1,81 @@
-node_modules
+############################################################
+#        🔵 DOTNET / VISUAL STUDIO / C#
+############################################################
+
+# Build results
+bin/
+obj/
+
+# Visual Studio cache
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# Logs
+*.log
+logs/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# IIS / publish
+wwwroot/
+**/wwwroot/
+
+# EF Core Migrations backup
+*.dbmdl
+*.jfm
+
+
+############################################################
+#        🟠 NODE / REACT (Vite, CRA, Next, etc.)
+############################################################
+
+# Node packages
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Temporary
+*.temp
+*.tmp
+
+# Yarn / pnpm / npm cache
+.pnp/
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+npm-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+!.env.example
+
+
+############################################################
+#        🔴 SISTEMA OPERACIONAL
+############################################################
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# MacOS
+.DS_Store
